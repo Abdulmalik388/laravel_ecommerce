@@ -24,7 +24,8 @@
             <div class="row">
                <div class="col-lg-8 offset-lg-2">
                   <div class="full">
-                     <form action="{{ route('submiteForm') }}" method="POST">
+                    <form class="contact-form" action="{{ route('contact.submit') }}" method="POST">
+
                      @csrf
                         
                            <input type="text" placeholder="Enter your full name" name="name" required />
@@ -41,7 +42,7 @@
       </section>
       
 
-<center>
+<center><br><br>
 
 
     <div class="bradcam_area bradcam_bg_1">
@@ -49,7 +50,7 @@
             <div class="row">
                 <div class="col-xl-12">
                     <div class="bradcam_text text-center">
-                    <h3>You can also Contact us via Whatsapp</h3>
+                    <h1 class="text-white option">You can also Contact us via Whatsapp</h1>
                     </div>
                 </div>
             </div>

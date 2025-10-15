@@ -8,12 +8,12 @@
 
     <style>
         body {
-            background-color: #f8f9fa;
+            background-color: #048fc1ff;
         }
 
         .sidebar {
             min-height: 100vh;
-            background-color: #343a40;
+            background-color: #0975e1ff;
             padding-top: 20px;
         }
 
@@ -26,7 +26,7 @@
         }
 
         .sidebar a:hover {
-            background-color: #495057;
+            background-color: #0e32b6ff;
         }
 
         .sidebar h4 {

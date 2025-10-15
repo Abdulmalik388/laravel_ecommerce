@@ -2,7 +2,7 @@
 
 @section('content')
 <div class="container mt-4">
-    <h2 class="mb-4">Welcome, Admin!</h2>
+    <h2 class="mb-4 text-white">Welcome, Admin!</h2>
 
     <div class="row">
         <div class="col-md-4">

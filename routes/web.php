@@ -45,7 +45,7 @@ Route::get('/product',[PagesController::class, 'product'])->name('pages.product'
 Route::get('/testimonial',[PagesController::class, 'testimonial'])->name('pages.testimonial');
 Route::get('/cart',[CartController::class, 'cart'])->name('pages.cart');
 Route::get('/checkout',[PagesController::class, 'checkout'])->name('pages.checkout');
-Route::post('/pages.contact',[ContactInfoController::class,'contactinfo'])->name('submiteForm');
+Route::post('/pages.contact',[ContactInfoController::class,'contactinfo'])->name('contact.submit');
 
 
 

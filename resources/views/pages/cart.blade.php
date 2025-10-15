@@ -2,7 +2,7 @@
 @section('content')
 @section('title', 'Cart')
 
-<div class="container mt-5">
+<div class="container mt-5 text-white">
     <h2 class="mb-4">Your Cart</h2>
 
     @if(session('success'))
@@ -10,7 +10,7 @@
     @endif
 
     @if($cartItems->count() > 0)
-        <table class="table">
+        <table class="table text-white">
             <thead>
                 <tr>
                     <th>Product</th>

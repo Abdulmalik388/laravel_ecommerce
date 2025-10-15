@@ -6,4 +6,4 @@
 <a href="{{ route('products.create') }}">Add products</a>
 <a href="{{ route('admin.orders') }}">Orders</a>
 <a href="{{ route('admin.users.index') }}">Users List</a>
-<a href="{{ route('pages.welcome') }}" class="text-danger">Logout</a>
+<a href="{{ route('pages.welcome') }}" > <button class="btn btn-danger btn-sm">Logout</button> </a>
